@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures":
+  {
+    "particle": "caliberblocks:block/building/windows/oak_grain",
+    "up": "caliberblocks:block/building/windows/oak_grain",
+    "down": "caliberblocks:block/building/windows/oak_grain",
+    "north": "caliberblocks:block/building/windows/oak_window",
+    "south": "caliberblocks:block/building/windows/oak_window",
+    "east": "caliberblocks:block/building/windows/oak_grain",
+    "west": "caliberblocks:block/building/windows/oak_grain"
+  }
+}

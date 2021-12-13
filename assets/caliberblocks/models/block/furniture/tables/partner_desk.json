@@ -2,8 +2,8 @@
 	"credit": "Design by CaliberMC - Charm8er",
 	"texture_size": [256, 256],
 	"textures": {
-		"0": "caliberblocks:blocks/furniture/tables/partner_desk",
-		"particle": "caliberblocks:blocks/furniture/tables/partner_desk"
+		"0": "caliberblocks:block/furniture/tables/partner_desk",
+		"particle": "caliberblocks:block/furniture/tables/partner_desk"
 	},
 	"elements": [
 		{

@@ -1,8 +1,10 @@
 {
 	"credit": "Design by CaliberMC - Charm8er",
-	"texture_size": [128, 128],
+	"texture_size": [64, 64],
 	"textures": {
-		"2": "caliberblocks:blocks/furniture/tables/table_oak"
+		"2": "caliberblocks:block/furniture/tables/table_oak",
+		"particle": "caliberblocks:block/furniture/tables/table_oak"
+
 	},
 	"elements": [
 		{

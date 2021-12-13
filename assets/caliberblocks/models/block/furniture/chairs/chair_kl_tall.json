@@ -2,8 +2,8 @@
 	"credit": "Design by CaliberMC - Charm8er",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "caliberblocks:blocks/furniture/chairs/chair_kl_tall",
-		"particle": "caliberblocks:blocks/furniture/chairs/chair_kl_tall"
+		"0": "caliberblocks:block/furniture/chairs/chair_kl_tall",
+		"particle": "caliberblocks:block/furniture/chairs/chair_kl_tall"
 	},
 	"elements": [
 		{

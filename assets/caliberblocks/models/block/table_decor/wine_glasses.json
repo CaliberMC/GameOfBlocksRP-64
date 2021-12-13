@@ -2,8 +2,8 @@
 	"credit": "Design by CaliberMC - Charm8er",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "caliberblocks:blocks/table_decor/wine_glasses",
-		"particle": "caliberblocks:blocks/table_decor/wine_glasses"
+		"0": "caliberblocks:block/table_decor/wine_glasses",
+		"particle": "caliberblocks:block/table_decor/wine_glasses"
 	},
 	"elements": [
 		{

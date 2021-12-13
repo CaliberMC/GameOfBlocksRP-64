@@ -2,8 +2,8 @@
 	"credit": "Design by CaliberMC - Charm8er",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "caliberblocks:blocks/structures/pillar_top_md",
-		"particle": "caliberblocks:blocks/structures/pillar_top_md"
+		"0": "caliberblocks:block/structures/pillar_top_md",
+		"particle": "caliberblocks:block/structures/pillar_top_md"
 	},
 	"elements": [
 		{

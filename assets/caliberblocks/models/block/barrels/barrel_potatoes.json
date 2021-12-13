@@ -2,9 +2,9 @@
 	"credit": "Design by CaliberMC - Charm8er",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "block/barrel_empty",
-		"3": "caliberblocks:blocks/barrels/barrel_potatoes",
-		"particle": "block/barrel_empty"
+		"1": "caliberblocks:block/barrels/barrel_empty",
+		"3": "caliberblocks:block/barrels/barrel_potatoes",
+		"particle": "caliberblocks:block/barrels/barrel_empty"
 	},
 	"elements": [
 		{
