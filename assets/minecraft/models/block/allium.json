@@ -1,6 +1,70 @@
 {
-  "parent": "minecraft:block/cross",
-  "textures": {
-    "cross": "minecraft:block/allium"
-  }
+	"credit": "Design by CaliberMC - Charm8er",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/allium",
+		"cross": "block/allium"
+	},
+	"elements": [
+		{
+			"from": [3.8, 0, 8],
+			"to": [15.7, 16, 8.001],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [9.5, 0, 2.3],
+			"to": [9.501, 16, 13.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [1.125, 12.625, 6.125],
+			"to": [17.125, 12.626, 10.625],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.125, 11.1255, 9.875]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#cross"},
+				"down": {"uv": [0, 5, 16, 0], "rotation": 180, "texture": "#cross"}
+			}
+		},
+		{
+			"name": "PlaneY4",
+			"from": [1.125, 12.12814, 2.1271],
+			"to": [17.125, 12.12914, 6.1271],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [9.125, 12.12864, 8.3771]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 0], "rotation": 180, "texture": "#cross"},
+				"down": {"uv": [0, 0, 16, 5], "rotation": 180, "texture": "#cross"}
+			}
+		},
+		{
+			"name": "PlaneY3",
+			"from": [2.625, 11.625, 2.125],
+			"to": [17.625, 11.626, 5.625],
+			"rotation": {"angle": 45, "axis": "x", "origin": [10.625, 11.1255, 5.375]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 5], "texture": "#cross"},
+				"down": {"uv": [0, 5, 16, 0], "texture": "#cross"}
+			}
+		},
+		{
+			"name": "PlaneY4",
+			"from": [2.625, 11.625, 5.125],
+			"to": [17.625, 11.626, 10.125],
+			"rotation": {"angle": 45, "axis": "x", "origin": [10.625, 11.1255, 5.375]},
+			"faces": {
+				"up": {"uv": [0, 5, 16, 0], "texture": "#cross"},
+				"down": {"uv": [0, 0, 16, 5], "texture": "#cross"}
+			}
+		}
+	]
 }
