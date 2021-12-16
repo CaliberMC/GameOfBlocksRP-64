@@ -1,18 +1,25 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Design by CaliberMC - Charm8er",
 	"parent": "block/block",
 	"textures": {
 		"bettergrass": "block/best_grass",
 		"top": "block/grass_top",
-		"bottom": "block/dirt",
 		"particle": "block/dirt",
+		"bottom": "block/dirt",
 		"side": "block/grass_block_side",
 		"overlay": "block/grass_block_side_overlay",
 		"center": "block/best_grass_extra"
 	},
 	"elements": [
 		{
-			"name": "Element",
+			"from": [4.5, 16.625, 4],
+			"to": [11.75, 16.626, 11.5],
+			"shade": false,
+			"faces": {
+				"up": {"uv": [4.5, 4, 11.75, 11.5], "texture": "#center", "cullface": "up", "tintindex": 0}
+			}
+		},
+		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
@@ -25,7 +32,6 @@
 			}
 		},
 		{
-			"name": "Element",
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
@@ -36,18 +42,8 @@
 			}
 		},
 		{
-			"name": "PlaneY8",
-			"from": [5, 16.75, 5],
-			"to": [11.75, 16.751, 10.75],
-			"shade": false,
-			"faces": {
-				"up": {"uv": [5, 5, 11.75, 10.75], "texture": "#center", "cullface": "up", "tintindex": 0}
-			}
-		},
-		{
-			"name": "PlaneY8",
-			"from": [10.375, 16.625, 0],
-			"to": [17.375, 16.626, 16],
+			"from": [10.375, 16.5, 0],
+			"to": [17.375, 16.501, 16],
 			"shade": false,
 			"rotation": {"angle": 0, "axis": "y", "origin": [6.75, 8, 8]},
 			"faces": {
@@ -55,31 +51,28 @@
 			}
 		},
 		{
-			"name": "PlaneY8",
-			"from": [0, 16.3053, -1.4934],
-			"to": [16, 16.3063, 5.5066],
+			"from": [0, 16.1803, -1.2434],
+			"to": [16, 16.1813, 5.7566],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9.25]},
 			"faces": {
 				"up": {"uv": [0, 9, 16, 16], "texture": "#bettergrass", "cullface": "up", "tintindex": 0}
 			}
 		},
 		{
-			"name": "PlaneY8",
-			"from": [-1.6183, 16.9303, 0],
-			"to": [5.3817, 16.9313, 16],
+			"from": [-1.1183, 16.8053, 0],
+			"to": [5.8817, 16.8063, 16],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.5, 8, 8]},
 			"faces": {
 				"up": {"uv": [0, 9, 16, 16], "rotation": 270, "texture": "#bettergrass", "cullface": "up", "tintindex": 0}
 			}
 		},
 		{
-			"name": "PlaneY8",
-			"from": [0, 16.75, 10.625],
-			"to": [16, 16.751, 17.625],
+			"from": [0, 16.625, 9.875],
+			"to": [16, 16.626, 16.875],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 6.25]},
 			"faces": {
 				"up": {"uv": [0, 16, 16, 9], "texture": "#bettergrass", "cullface": "up", "tintindex": 0}
 			}
@@ -115,5 +108,13 @@
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 6.25],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6]
+		}
+	]
 }
